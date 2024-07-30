@@ -1,4 +1,4 @@
 
-š
-java:S1104	"RMake driver a static final constant or non-public and provide accessors if needed.(ÔèË©úÿÿÿÿ8ÀÎÀ½2J$b5194571-1e77-4b57-963b-d785b95bd754
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Îà Üøÿÿÿÿ8ÀÎÀ½2J$d9f0484b-a23e-406d-8075-de4af05c278f
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Îà Üøÿÿÿÿ8ÀÎÀ½2J$6dd6c5aa-2977-41ab-9b1d-610fa14c5563
+W
+java:S1128":Remove this unused import 'org.openqa.selenium.WebDriver'.(ñšÿÀ8«ßŠÎ2

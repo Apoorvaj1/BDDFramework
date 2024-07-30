@@ -1,5 +1,7 @@
 Feature: Initiating General Enquiry case
 
+
+  @Sanity
   Scenario: General Enquiry case initiation
 
     Given User reaches to login page of NSW
@@ -7,12 +9,14 @@ Feature: Initiating General Enquiry case
     When   Enter password as "Rules@123"
     Then  User able to navigation to the home page
 
+
    Scenario Outline: Login with different sets of data
 
      Given  User reaches to login page of NSW
      When   User enter "<username>" and "<password>"
      Then   User able to navigation to the home page
 
+     @Regression
      Examples:
 
        | username                     | password  |

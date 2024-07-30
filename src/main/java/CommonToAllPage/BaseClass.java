@@ -6,8 +6,6 @@ import org.openqa.selenium.WebElement;
 
 public class BaseClass {
 
-    public WebDriver driver;
-
     public void clickOnButton(WebElement e){
         e.click();
     }

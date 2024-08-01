@@ -21,23 +21,23 @@ public class GeneralEnquiry_StepDefinition {
     }
     @When("User enter {string} as email id")
     public void user_enter_as_email_id(String string) {
-        GeneralEnquiry_Page gep = PageFactory.initElements(getDriver(),GeneralEnquiry_Page.class);
+        GeneralEnquiry_Page gep = new GeneralEnquiry_Page(getDriver());
         gep.enterEmail(string);
     }
     @When("Enter password as {string}")
     public void enter_password_as(String string) {
-        GeneralEnquiry_Page gep = PageFactory.initElements(getDriver(),GeneralEnquiry_Page.class);
+        GeneralEnquiry_Page gep = new GeneralEnquiry_Page(getDriver());
         gep.enterPassword(string);
     }
     @Then("User able to navigation to the home page")
     public void user_able_to_navigation_to_the_home_page() throws InterruptedException {
-        GeneralEnquiry_Page gep = PageFactory.initElements(getDriver(),GeneralEnquiry_Page.class);
+        GeneralEnquiry_Page gep = new GeneralEnquiry_Page(getDriver());
         gep.clickLoginBtn();
     }
 
     @When("User enter {string} and {string}")
     public void user_enter_and(String string, String string2) {
-        GeneralEnquiry_Page gep = PageFactory.initElements(getDriver(),GeneralEnquiry_Page.class);
+        GeneralEnquiry_Page gep = new GeneralEnquiry_Page(getDriver());
         gep.enterUserPass(string,string2);
 
     }

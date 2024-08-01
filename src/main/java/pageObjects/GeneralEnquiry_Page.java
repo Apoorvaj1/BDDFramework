@@ -7,10 +7,9 @@ import org.openqa.selenium.support.FindBy;
 
 public class GeneralEnquiry_Page extends BaseClass {
 
-    private WebDriver driver;
 
-    public GeneralEnquiry_Page(WebDriver ldriver){
-        this.driver = ldriver;
+    public GeneralEnquiry_Page(WebDriver driver){
+        super(driver);
     }
 
     private @FindBy(id="txtUserID")

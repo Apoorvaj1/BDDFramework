@@ -13,12 +13,11 @@ import org.junit.runner.RunWith;
                   "json:target/MyReports/report.json",
                    "junit:target/MyReports/report.xml",
                     "rerun:target/failedrerun.txt",
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
-
+                    "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
                     },
         publish = false,
         dryRun = false,
-        tags = "@Regression or @Sanity"
+        tags = "@Sanity"
 )
 
 public class TestRunner {

@@ -1,0 +1,23 @@
+
+¡
+java:S22931"YReplace the type specification in this constructor call with the diamond operator ("<>").(¿•öªùÿÿÿÿ8¿İ‰Ÿ‘2J$ba3bec2e-c509-4b34-9c75-93589d1e059f
+›
+java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒB8¿İ‰Ÿ‘2J$ba2c6cbe-ca72-4d80-877e-92079057afcc
+›
+java:S2293b"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒB8¿İ‰Ÿ‘2J$77e33083-63fa-45b4-b6ff-646ba2e7a001
+x
+java:S1066"/Merge this if statement with the enclosing one.(ÑŠ¡áÿÿÿÿÿ8¿İ‰Ÿ‘2J$ef375f71-3a0d-4bc2-befa-44674d2f4923
+ 
+java:S1488!"]Immediately return this expression instead of assigning it to the temporary variable "sheet".(‡ê…„8¿İ‰Ÿ‘2J$e460b886-498a-47d2-b6f5-21a7033b2dcb
+ 
+java:S1488&"]Immediately return this expression instead of assigning it to the temporary variable "sheet".(ÛÎ¶ï8¿İ‰Ÿ‘2J$6d704a47-bd90-457e-9397-41dd01d5ce51
+Ü
+java:S1130*"“Remove the declaration of thrown exception 'org.apache.poi.openxml4j.exceptions.InvalidFormatException', as it cannot be thrown from method's body.(øû´“ÿÿÿÿÿ8İŞ‰Ÿ‘2J$9a5755a4-d337-4c95-a566-54da7a94c6dd
+
+java:S1871O"LThis branch's code block is the same as the block for the branch on line 76.(Ì‡Ûä8îŞ‰Ÿ‘2J$3c1fe7c1-88ae-488f-b2d0-ca65dd2b4492
+”
+java:S1871R"LThis branch's code block is the same as the block for the branch on line 76.(•³í‹úÿÿÿÿ8îŞ‰Ÿ‘2J$c587a98a-b21f-40f2-9bb9-1806f212a481
+”
+java:S1871T"LThis branch's code block is the same as the block for the branch on line 76.(šÓŞúÿÿÿÿ8îŞ‰Ÿ‘2J$0a9d9ac1-9d3e-4d41-8eda-13c058d94f82
+š
+java:S3776a"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Ø£Úóûÿÿÿÿ8îŞ‰Ÿ‘2J$4f8975fb-1507-4c05-8a0f-c1a3fea2cd41

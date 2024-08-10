@@ -1,2 +1,5 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Îà Üøÿÿÿÿ8…Ò™÷2J$1021ccc2-55e9-43d0-8852-5a57f237cf77
+š
+java:S1104
+"RMake driver a static final constant or non-public and provide accessors if needed.(ÔèË©úÿÿÿÿ8ÇØíÔ“2J$57f71ba0-39ba-4ead-b355-ea0adff83a5b
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Îà Üøÿÿÿÿ8ÈØíÔ“2J$de5d7524-874a-437e-b0ec-fd43d4cace36

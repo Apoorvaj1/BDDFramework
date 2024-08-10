@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BaseClass {
 
-    WebDriver driver;
+    public WebDriver driver;
 
     public BaseClass(WebDriver driver){
         this.driver = driver;
@@ -21,5 +21,6 @@ public class BaseClass {
     public void enterText(WebElement e,String str){
         e.sendKeys(str);
     }
+
 
 }

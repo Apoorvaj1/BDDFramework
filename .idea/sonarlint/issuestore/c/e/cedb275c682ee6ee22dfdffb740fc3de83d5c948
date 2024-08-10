@@ -1,4 +1,4 @@
 
-	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ëô¦ÿ8û •÷2J$29e73758-e15e-4adc-914a-366ce364b494
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÉÙ÷T8ı •÷2J$086d8b54-dd5a-4a7d-add1-f275a87a2ecf
-•	java:S116"SRename this field "LoginBtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öˆâ¶8‚¡•÷2J$107a4bbf-dde9-4023-b64d-6813a16bfc91
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ëô¦ÿ8—ÊÛ©‘2J$f09c9836-dfd3-459e-954f-c313b5bcb232
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÉÙ÷T8˜ÊÛ©‘2J$1a2af461-06e8-434d-b524-d05ef74859b6
+”	java:S116"SRename this field "LoginBtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª¹ãZ8ÊÛ©‘2J$2a3341eb-98ce-47f8-8d08-a4a0402cee83

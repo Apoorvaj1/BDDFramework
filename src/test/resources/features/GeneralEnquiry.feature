@@ -7,6 +7,7 @@ Feature: Initiating General Enquiry case
     Given User reaches to login page of NSW
     When  User enter "apoorv.jain+3500@coforge.com" as email id
     When   Enter password as "Rules@123"
+    And    Click on Submit
     Then  User able to navigation to the home page
 
 

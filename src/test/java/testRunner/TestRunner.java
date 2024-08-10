@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "./src/test/resources/features/GeneralEnquiry.feature",
+        features = "./src/test/resources/features/AddProperty.feature",
         glue = {"stepDefinitions", "utils"},
         monochrome = true,
         plugin = {"pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
@@ -16,8 +16,7 @@ import org.junit.runner.RunWith;
                     "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
                     },
         publish = false,
-        dryRun = false,
-        tags = "@Sanity"
+        dryRun = false
 )
 
 public class TestRunner {

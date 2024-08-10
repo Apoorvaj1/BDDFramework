@@ -12,14 +12,14 @@ public class GeneralEnquiry_Page extends BaseClass {
         super(driver);
     }
 
-    private @FindBy(id="txtUserID")
-    WebElement email;
+    @FindBy(id="txtUserID")
+    private WebElement email;
 
-    private @FindBy(id="txtPassword")
-    WebElement password;
+    @FindBy(id="txtPassword")
+    private WebElement password;
 
-    private @FindBy(id="sub")
-    WebElement LoginBtn;
+    @FindBy(id="sub")
+    private WebElement LoginBtn;
 
     public void enterEmail(String email1){
         enterText(email,email1);
@@ -34,10 +34,11 @@ public class GeneralEnquiry_Page extends BaseClass {
         Thread.sleep(2000);
     }
 
-    public void enterUserPass(String usern, String passw){
+    public void enterUserPass(String usern, String passw) throws InterruptedException {
         enterText(email,usern);
         enterText(password,passw);
+        clickOnButton(LoginBtn);
+        Thread.sleep(2000);
     }
-
 
 }

@@ -1,5 +1,5 @@
 
-	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¢Û8Õ¿õÍ2J$6c454d78-45f4-4e91-a923-bdd8a0aa50be
-m	java:S106"+Replace this use of System.out by a logger.(¨İ—®8×¿õÍ2J$35660a5a-e55b-4810-b179-14a7e23da2f9
-r	java:S106"+Replace this use of System.out by a logger.(ÊæÑŸûÿÿÿÿ8Ø¿õÍ2J$cfa333a9-0018-4ce1-83fa-fcfcf487e30c
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(—³¹¡ÿÿÿÿÿ8Û¿õÍ2J$7e93a6c2-da8b-4a24-9b91-697ff6800c94
+	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¢Û8Õ¿õÍ2J$4abc0114-6a9d-4ccd-abfe-1a1e60136f35
+m	java:S106"+Replace this use of System.out by a logger.(¨İ—®8×¿õÍ2J$23d619ce-3952-4d61-958a-5dad006d3440
+r	java:S106"+Replace this use of System.out by a logger.(ÊæÑŸûÿÿÿÿ8Ø¿õÍ2J$268dbe5f-03d6-476e-b0cb-0933996f9091
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(—³¹¡ÿÿÿÿÿ8Û¿õÍ2J$ef5a33d4-fd01-48bc-9377-cee4ca91cdfa

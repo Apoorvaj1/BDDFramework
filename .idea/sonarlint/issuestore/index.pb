@@ -26,3 +26,13 @@ Q
 !src/test/java/testRunner/Run.java,3\5\35d424345fc647490f98535bbf476015d5a56432
 X
 (test-output/SparkReport/SparkReport.html,7\a\7a939b4c101a2c2d82b8526cadf376fce2ea20e3
+U
+%src/main/java/utils/ConfigReader.java,c\a\cae59c5b39af4c8538c169b0c81a01b85082ffef
+T
+$src/main/java/utils/ExcelReader.java,b\2\b22e5d1c568b2626eafd923221502f0e91ce1721
+m
+=src/test/java/stepDefinitions/AddProperty_StepDefinition.java,8\e\8ee5c782003c2518337e5588cf8ca104b1bc549d
+_
+/src/main/java/pageObjects/AddProperty_Page.java,f\4\f437819cd43efa54572c8b5bb7a638b086e371ed
+W
+'src/test/java/stepDefinitions/Demo.java,e\2\e269c25f6f73e08f24265908ab1a79ef07f54340

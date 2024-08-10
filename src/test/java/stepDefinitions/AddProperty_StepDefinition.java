@@ -28,12 +28,14 @@ public class AddProperty_StepDefinition {
 
     }
     @When("User click on Add property button")
-    public void user_click_on_add_property_button() {
-        System.out.println("Hello");
+    public void user_click_on_add_property_button() throws InterruptedException {
+       AddProperty_Page app = new AddProperty_Page(getDriver());
+       app.click_AddPropertyButton();
     }
     @Then("Case will initiate")
     public void case_will_initiate() {
-        System.out.println("Hello");
+        System.out.println("Case will initiate");
+
     }
     @When("User enters the details from given sheetname {string} and rownumber {int}")
     public void user_enters_the_details_from_given_sheetname_and_rownumber(String string, Integer int1) {

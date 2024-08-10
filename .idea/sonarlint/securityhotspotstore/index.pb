@@ -36,3 +36,5 @@ _
 /src/main/java/pageObjects/AddProperty_Page.java,f\4\f437819cd43efa54572c8b5bb7a638b086e371ed
 W
 'src/test/java/stepDefinitions/Demo.java,e\2\e269c25f6f73e08f24265908ab1a79ef07f54340
+X
+(src/test/java/stepDefinitions/Demo1.java,6\2\62d27b17c1c77dd46b00b4083e4c499fcc09518e

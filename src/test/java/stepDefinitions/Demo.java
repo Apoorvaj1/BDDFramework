@@ -1,6 +1,7 @@
 package stepDefinitions;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -16,15 +17,20 @@ public class Demo {
         driver.findElement(By.id("txtUserID")).sendKeys("apoorv.jain+3500@coforge.com");
         driver.findElement(By.id("txtPassword")).sendKeys("Rules@123");
         driver.findElement(By.id("sub")).click();
-        Thread.sleep(4000);
-        Actions action = new Actions(driver);
-        action.moveToElement(driver.findElement(By.xpath("//span[@class=\"menu-item-title\"][contains(text(),\"My properties\")]"))).build().perform();
-        driver.findElement(By.xpath("//span[@class=\"menu-item-title\"][contains(text(),\"My properties\")]")).click();
         Thread.sleep(2000);
-        List<WebElement> total_tab = driver.findElements(By.xpath("//h3[@class=\"layout-group-item-title\"]"));
-        for(WebElement tabs:total_tab){
-            System.out.println(tabs.getText());
-        }
-        driver.quit();
+        driver.findElement(By.xpath("//a[normalize-space()=\"GENQ-23030\"]")).click();
+        Thread.sleep(3000);
+        driver.findElement(By.xpath("//button[contains(text(),\"Go\")]")).click();
+        Thread.sleep(2000);
+        WebElement frame1 = driver.findElement(By.xpath("//div[@id=\"cke_1_contents\"]/iframe"));
+        driver.switchTo().frame(frame1);
+        driver.findElement(By.cssSelector("body p")).sendKeys("APOORV");
+        Thread.sleep(2000);
+        driver.switchTo().defaultContent();
+        WebElement click_Submit = driver.findElement(By.xpath("//button[contains(text(),\"Submit\")]"));
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("arguments[0].scrollIntoView(true);",click_Submit);
+        click_Submit.click();
+
     }
 }

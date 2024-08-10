@@ -6,6 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.Iterator;
+import java.util.Set;
+
 public class AddProperty_Page extends BaseClass {
 
     public AddProperty_Page(WebDriver driver){
@@ -23,6 +26,9 @@ public class AddProperty_Page extends BaseClass {
 
     @FindBy(xpath = "//h3[normalize-space()=\"Managed properties\"]")
     WebElement display_ManagedProperties;
+
+    @FindBy(xpath = "((//button[@class=\"Strong pzhc pzbutton\"])[normalize-space()=\"Add property\"])[1]")
+    WebElement addProperty_button;
     public void click_MyProperties() throws InterruptedException {
         Actions action = new Actions(driver);
         action.moveToElement(option_MyProperties).build().perform();
@@ -44,5 +50,10 @@ public class AddProperty_Page extends BaseClass {
         else{
             System.out.println("No it's not available");
         }
+    }
+
+    public void click_AddPropertyButton() throws InterruptedException {
+        clickOnButton(addProperty_button);
+        Thread.sleep(3000);
     }
 }

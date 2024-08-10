@@ -48,7 +48,7 @@ public class BrowserFactory {
             }
         }
     }
-    @After (order = 0)
+    //@After (order = 0)
     public static void down() {
         if(Objects.nonNull(BrowserFactory.getDriver())){
             getDriver().quit();

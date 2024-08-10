@@ -1,12 +1,19 @@
 
-m	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø­îÎ8ì§âÖ“2
-”	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(±ĞÊ©ùÿÿÿÿ8¢‚ÔÖ“2J$7a471acc-b776-4495-81fd-d928335afed8
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÉÙ÷T8£‚ÔÖ“2J$34c64640-13ea-452f-9a6a-111755744164
- 	java:S116"^Rename this field "option_MyProperties" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¸™ƒ8ª‚ÔÖ“2J$eba24fff-9927-4611-912b-02873185629a
-œ	java:S116"ZRename this field "submit_GEButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÌí®8ª‚ÔÖ“2J$bcf35566-5f76-44af-ac2d-f4e8a4810a23
-©	java:S116"bRename this field "display_OwnedProperties" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶•Ó€úÿÿÿÿ8ª‚ÔÖ“2J$0ccdc795-ad70-432d-b1c2-a20420a61ef6
-¦	java:S116"dRename this field "display_ManagedProperties" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èõ…¼8ª‚ÔÖ“2J$d8376575-e8aa-4250-90a0-d639839383e4
-	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÙ 8­‚ÔÖ“2J$fd19a7f0-5f76-41e1-8ab6-ee4e88b86055
-	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó­¸À8¯‚ÔÖ“2J$1ece5bdc-6200-488d-9eb2-b0e56cf1dfde
-m	java:S106*"+Replace this use of System.out by a logger.(æÚ¹»8ÄÉàÖ“2J$dfeb47b1-7ad2-4a01-be7c-add11db215aa
-r	java:S106-"+Replace this use of System.out by a logger.(çâèûÿÿÿÿ8ÄÉàÖ“2J$905e7e49-8c23-47a5-893c-c01d89fd80a0
+“	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø­îÎ8×·Ù“2J$c6d27dcc-c9f7-44c4-abcd-58bfd170870f
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(±ĞÊ©ùÿÿÿÿ8Ø·Ù“2J$771c0adf-6866-491a-bf60-9f212c275319
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÉÙ÷T8Ú·Ù“2J$3a389675-5280-488a-9ef9-1a80f3a007a6
+ 	java:S116"^Rename this field "option_MyProperties" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¸™ƒ8ã·Ù“2J$d1b85d65-73a6-48a3-8592-9986dbf4dc98
+œ	java:S116"ZRename this field "submit_GEButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÌí®8ã·Ù“2J$fe4ea8be-066e-43af-a1d6-609c8787a7bf
+©	java:S116"bRename this field "display_OwnedProperties" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶•Ó€úÿÿÿÿ8ã·Ù“2J$68ae9e8d-5771-47f0-abfd-ec7348ddecda
+¦	java:S116"dRename this field "display_ManagedProperties" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èõ…¼8ã·Ù“2J$19842fa6-bc00-47bf-a717-3db505232c5a
+¤	java:S116"]Rename this field "addProperty_button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¬üÿÿÿÿ8ã·Ù“2J$8839c2fd-09b0-4b9b-9d99-e05ff952ad1b
+	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÙ 8è·Ù“2J$578710a8-a3e8-4c79-8ba4-537fed2b5d1a
+	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó­¸À8ê·Ù“2J$0d9e7ab8-4d5c-4ad6-8a0c-1ef14e6782e1
+m	java:S1060"+Replace this use of System.out by a logger.(æÚ¹»8î·Ù“2J$057a547d-f1be-4b4f-878a-3c59e7d9ff20
+r	java:S1063"+Replace this use of System.out by a logger.(çâèûÿÿÿÿ8î·Ù“2J$69ec01c5-b4b8-462e-a22b-0290d5d68dd3
+•	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä›ƒúÿÿÿÿ8ï·Ù“2J$77720487-d378-4655-a081-a1b6fa03998d
+r
+java:S1128	"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ8ğ·Ù“2J$a824304c-af38-458a-92f8-91bc70f40d7d
+r
+java:S1128
+"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8ğ·Ù“2J$70c8d91c-d4dd-4ba7-a9f9-3576d3228d8a

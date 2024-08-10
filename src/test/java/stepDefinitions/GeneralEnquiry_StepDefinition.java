@@ -49,4 +49,37 @@ public class GeneralEnquiry_StepDefinition {
 
     }
 
+    @When("User clicks on Submit a service request or enquiry option")
+    public void user_clicks_on_submit_a_service_request_or_enquiry_option() throws InterruptedException {
+        GeneralEnquiry_Page gep = new GeneralEnquiry_Page(getDriver());
+        gep.click_Submit_a_SR_and_Enquiry();
+    }
+    @When("Click on GeneralEnquiry button")
+    public void click_on_general_enquiry_button() throws InterruptedException {
+        GeneralEnquiry_Page gep = new GeneralEnquiry_Page(getDriver());
+        gep.click_GeneralEnquiry();
+    }
+    @Then("GeneralEnquiry case will initiate")
+    public void general_enquiry_case_will_initiate() {
+        GeneralEnquiry_Page gep = new GeneralEnquiry_Page(getDriver());
+        gep.generalEnquiry_CaseID();
+
+    }
+    @When("User enters selects No")
+    public void user_enters_selects_no() throws InterruptedException {
+        GeneralEnquiry_Page gep = new GeneralEnquiry_Page(getDriver());
+        gep.click_No();
+    }
+    @When("Enter all the details")
+    public void enter_all_the_details() throws InterruptedException {
+        GeneralEnquiry_Page gep = new GeneralEnquiry_Page(getDriver());
+        gep.enter_EnquiryDetails();
+    }
+    @Then("Confirmation text will display")
+    public void confirmation_text_will_display() throws InterruptedException {
+        GeneralEnquiry_Page gep = new GeneralEnquiry_Page(getDriver());
+        gep.get_GEConfirmationText();
+    }
+
+
 }

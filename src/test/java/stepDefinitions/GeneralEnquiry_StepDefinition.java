@@ -65,8 +65,8 @@ public class GeneralEnquiry_StepDefinition {
         gep.generalEnquiry_CaseID();
 
     }
-    @When("User enters selects No")
-    public void user_enters_selects_no() throws InterruptedException {
+    @When("User enters selects No or Yes")
+    public void user_enters_selects_no_or_yes() throws InterruptedException {
         GeneralEnquiry_Page gep = new GeneralEnquiry_Page(getDriver());
         gep.click_No_Yes();
     }

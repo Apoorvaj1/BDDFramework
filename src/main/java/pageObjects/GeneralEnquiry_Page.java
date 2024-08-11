@@ -95,10 +95,12 @@ public class GeneralEnquiry_Page extends BaseClass {
         if(ConfigReader.readKey("option").equals("No")){
             clickOnButton(No_radiobutton);
             clickOnButton(Next_button);
+            Thread.sleep(2000);
         }
         if(ConfigReader.readKey("option").equals("Yes")){
             clickOnButton(Yes_radiobutton);
             clickOnButton(Next_button);
+            Thread.sleep(2000);
 
         }
     }
@@ -113,6 +115,25 @@ public class GeneralEnquiry_Page extends BaseClass {
             JavascriptExecutor js = (JavascriptExecutor)driver;
             js.executeScript("arguments[0].scrollIntoView(true);",Submit_Button);
             clickOnButton(Submit_Button);
+        }
+        if(ConfigReader.readKey("option").equals("Yes")){
+            Thread.sleep(2000);
+            driver.findElement(By.xpath("(//input[@class=\"checkbox chkBxCtl\"])[1]")).click();
+            WebElement next_Button = driver.findElement(By.xpath("//button[contains(text(),\"Next\")]"));
+            JavascriptExecutor js = (JavascriptExecutor)driver;
+            js.executeScript("arguments[0].scrollIntoView(true);",next_Button);
+            next_Button.click();
+            Thread.sleep(2000);
+            js.executeScript("window.scrollBy(0,-1200)");
+            Thread.sleep(2000);
+
+            WebElement frame1 = driver.findElement(By.xpath("//div[@id=\"cke_1_contents\"]/iframe"));
+            driver.switchTo().frame(frame1);
+            driver.findElement(By.cssSelector("body p")).sendKeys("APOORV");
+            Thread.sleep(2000);
+            driver.switchTo().defaultContent();
+            clickOnButton(Submit_Button);
+
         }
     }
 

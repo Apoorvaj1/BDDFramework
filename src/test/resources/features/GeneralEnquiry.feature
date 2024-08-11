@@ -12,7 +12,7 @@ Feature: Initiating General Enquiry case
     When  User clicks on Submit a service request or enquiry option
     And   Click on GeneralEnquiry button
     Then  GeneralEnquiry case will initiate
-    When  User enters selects No
+    When  User enters selects No or Yes
     And   Enter all the details
     Then  Confirmation text will display
 

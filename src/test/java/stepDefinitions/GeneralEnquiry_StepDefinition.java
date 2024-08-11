@@ -68,7 +68,7 @@ public class GeneralEnquiry_StepDefinition {
     @When("User enters selects No")
     public void user_enters_selects_no() throws InterruptedException {
         GeneralEnquiry_Page gep = new GeneralEnquiry_Page(getDriver());
-        gep.click_No();
+        gep.click_No_Yes();
     }
     @When("Enter all the details")
     public void enter_all_the_details() throws InterruptedException {

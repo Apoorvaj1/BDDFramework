@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import utils.ConfigReader;
 
 public class GeneralEnquiry_Page extends BaseClass {
 
@@ -89,21 +90,30 @@ public class GeneralEnquiry_Page extends BaseClass {
         System.out.println("General Enquiry Case Id is "+ID);
     }
 
-    public void click_No() throws InterruptedException {
+    public void click_No_Yes() throws InterruptedException {
         Thread.sleep(2000);
-        clickOnButton(No_radiobutton);
-        clickOnButton(Next_button);
+        if(ConfigReader.readKey("option").equals("No")){
+            clickOnButton(No_radiobutton);
+            clickOnButton(Next_button);
+        }
+        if(ConfigReader.readKey("option").equals("Yes")){
+            clickOnButton(Yes_radiobutton);
+            clickOnButton(Next_button);
+
+        }
     }
 
     public void enter_EnquiryDetails() throws InterruptedException {
-        Thread.sleep(2000);
-        driver.switchTo().frame(EnquiryDetail_TextField);
-        driver.findElement(By.cssSelector("body p")).sendKeys("HEY");
-        Thread.sleep(2000);
-        driver.switchTo().defaultContent();
-        JavascriptExecutor js = (JavascriptExecutor)driver;
-        js.executeScript("arguments[0].scrollIntoView(true);",Submit_Button);
-        clickOnButton(Submit_Button);
+        if(ConfigReader.readKey("option").equals("No")){
+            Thread.sleep(2000);
+            driver.switchTo().frame(EnquiryDetail_TextField);
+            driver.findElement(By.cssSelector("body p")).sendKeys("HEY");
+            Thread.sleep(2000);
+            driver.switchTo().defaultContent();
+            JavascriptExecutor js = (JavascriptExecutor)driver;
+            js.executeScript("arguments[0].scrollIntoView(true);",Submit_Button);
+            clickOnButton(Submit_Button);
+        }
     }
 
     public void get_GEConfirmationText() throws InterruptedException {

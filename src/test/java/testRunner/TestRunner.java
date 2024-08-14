@@ -16,8 +16,8 @@ import org.junit.runner.RunWith;
                     "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
                     },
         publish = false,
-        dryRun = false,
-        tags = "@Sanity"
+        dryRun = false
+        //tags = "@Smoke"
 )
 
 public class TestRunner {

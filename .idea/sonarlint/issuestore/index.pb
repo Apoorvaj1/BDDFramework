@@ -18,12 +18,6 @@ b
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-_
-/src/test/java/testRunner/TestRunner_Testng.java,d\6\d69cddac7c7904b0d5027dbd6fbe836542490dd7
-Y
-)src/test/java/testRunner/TestRunner1.java,b\8\b87ea0e899ce6af5a4144808a17994d065a1c321
-Q
-!src/test/java/testRunner/Run.java,3\5\35d424345fc647490f98535bbf476015d5a56432
 X
 (test-output/SparkReport/SparkReport.html,7\a\7a939b4c101a2c2d82b8526cadf376fce2ea20e3
 U
@@ -37,4 +31,8 @@ _
 W
 'src/test/java/stepDefinitions/Demo.java,e\2\e269c25f6f73e08f24265908ab1a79ef07f54340
 X
-(src/test/java/stepDefinitions/Demo1.java,6\2\62d27b17c1c77dd46b00b4083e4c499fcc09518e
+(src/test/java/stepDefinitions/Demo2.java,3\8\387fd849da3f16e17dda181c33abc0ba404abf00
+X
+(src/test/java/stepDefinitions/Demo3.java,0\5\05bdd219e6e84fdc950c13917601755f9258cc5f
+X
+(src/test/java/stepDefinitions/Demo4.java,2\c\2cd1f4d393a1a66a470c9a50a8d29577c9a509a7

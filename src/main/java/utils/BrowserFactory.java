@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 
+import java.util.Arrays;
 import java.util.Objects;
 
 public class BrowserFactory {
@@ -33,6 +34,7 @@ public class BrowserFactory {
                 edgeOptions.addArguments("--incognito");
                 edgeOptions.setAcceptInsecureCerts(true);
                 edgeOptions.setExperimentalOption("excludeSwitches",new String[]{"enable-automation"});
+                edgeOptions.setExperimentalOption("excludeSwitches", Arrays.asList("disable-popup-blocking"));
                 WebDriver driver = new EdgeDriver(edgeOptions);
                 setDriver(driver);
             }
@@ -43,6 +45,7 @@ public class BrowserFactory {
                 chromeOptions.addArguments("--incognito");
                 chromeOptions.setAcceptInsecureCerts(true);
                 chromeOptions.setExperimentalOption("excludeSwitches",new String[]{"enable-automation"});
+                chromeOptions.setExperimentalOption("excludeSwitches", Arrays.asList("disable-popup-blocking"));
                 WebDriver driver = new ChromeDriver(chromeOptions);
                 setDriver(driver);
             }

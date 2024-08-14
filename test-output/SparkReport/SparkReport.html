@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Automation Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Aug 11, 2024 10:33:26 am</span></a>
+<a href="#"><span class="badge badge-primary">Aug 14, 2024 11:07:06 am</span></a>
 </li>
 </ul>
 </div>
@@ -57,6 +57,11 @@
 <span class="ico"><i class="fa fa-tag"></i></span>
 </a>
 </li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
 </ul>
 </div>
 </div>      <div class="vcontainer">
@@ -66,25 +71,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Aug 11, 2024 10:33:26 am</h3>
+<h3>Aug 14, 2024 11:07:06 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Aug 11, 2024 10:34:04 am</h3>
+<h3>Aug 14, 2024 11:07:42 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>0</h3>
+<h3>1</h3>
 </div></div>
 </div>
 </div>
@@ -100,12 +105,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>1</b> features passed
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> features failed,
+<small data-tooltip='100%'><b>1</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -123,9 +128,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>1</b> scenarios passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> scenarios failed,
+<small data-tooltip='100%'><b>1</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -143,10 +148,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>11</b> steps passed</small></div>
+<div><small data-tooltip='76%'><b>10</b> steps passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> steps failed,
-<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='7%'><b>1</b> steps failed,
+<b>2</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -162,7 +167,7 @@
 </div></div>
 <script>
 var timeline = {
-"Initiating General Enquiry case":36.533
+"Initiating General Enquiry case":34.995
 };
 </script>
 <div class="row">
@@ -172,12 +177,12 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@Sanity</td>
+<td>@Smoke</td>
+<td>0</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>0%</td>
 </tr>
 </tbody>
 </table></div>
@@ -210,21 +215,21 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
-failParent: 0,
+passParent: 0,
+failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 1,
-failChild: 0,
+passChild: 0,
+failChild: 1,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 11,
-failGrandChild: 0,
+passGrandChild: 10,
+failGrandChild: 1,
 warningGrandChild: 0,
-skipGrandChild: 0,
+skipGrandChild: 2,
 infoGrandChild: 0,
 eventsCount: 5,
 };
@@ -238,7 +243,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -246,31 +251,31 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@Sanity</a>
+<a class="dropdown-item" href="#">@Smoke</a>
 </ul>
 </li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Initiating General Enquiry case</p>
             <p class="text-sm">
-              <span>10:33:27 am</span> / <span>00:00:36:533</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>11:07:07 am</span> / <span>00:00:34:995</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Initiating General Enquiry case</h5>
-<span class='badge badge-success'>08.11.2024 10:33:27 am</span>
-<span class='badge badge-danger'>08.11.2024 10:34:03 am</span>
-<span class='badge badge-default'>00:00:36:533</span>
+<h5 class="test-status text-fail">Initiating General Enquiry case</h5>
+<span class='badge badge-success'>08.14.2024 11:07:07 am</span>
+<span class='badge badge-danger'>08.14.2024 11:07:42 am</span>
+<span class='badge badge-default'>00:00:34:995</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -283,18 +288,21 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>General Enquiry case initiation</div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>General Enquiry Resolution</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.user_reaches_to_login_page_of_nsw()">
-                <span>Given User reaches to login page of NSW</span>
+              <div class="step pass-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.internal_csr_reaches_to_login_page_of_nsw()">
+                <span>Given Internal CSR reaches to login page of NSW</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.user_enter_as_email_id(java.lang.String)">
-                <span>When User enter "apoorv.jain+3500@coforge.com" as email id</span>
+              <div class="step pass-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.csr_enter_as_email_id(java.lang.String)">
+                <span>When CSR enter "apoorv.jain+730@coforge.com" as email id</span>
       <div>
       </div>
               </div>
@@ -308,38 +316,82 @@ eventsCount: 5,
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.user_able_to_navigation_to_the_home_page()">
-                <span>Then User able to navigation to the home page</span>
+              <div class="step pass-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.csr_able_to_navigation_to_the_home_page_of_interaction_portal()">
+                <span>Then CSR able to navigation to the home page of Interaction portal</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.user_clicks_on_submit_a_service_request_or_enquiry_option()">
-                <span>When User clicks on Submit a service request or enquiry option</span>
+              <div class="step pass-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.csr_clicks_on_my_workbaskets()">
+                <span>When CSR clicks on My workbaskets</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.click_on_general_enquiry_button()">
-                <span>And Click on GeneralEnquiry button</span>
+              <div class="step pass-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.select_customer_experience_dropdown()">
+                <span>And Select Customer Experience dropdown</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.general_enquiry_case_will_initiate()">
-                <span>Then GeneralEnquiry case will initiate</span>
+              <div class="step pass-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.csr_able_to_see_sr_case()">
+                <span>Then CSR able to see SR case</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.user_enters_selects_no_or_yes()">
-                <span>When User enters selects No or Yes</span>
+              <div class="step pass-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.csr_clicks_on_sr_case()">
+                <span>When CSR clicks on SR case</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.enter_all_the_details()">
-                <span>And Enter all the details</span>
+              <div class="step fail-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.enter_all_the_detail()">
+                <span>And Enter all the detail</span>
       <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@id="PegaGadget1Ifr"]"}
+  (Session info: MicrosoftEdge=127.0.2651.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [daaf00de32b01c3d509b0dfdbbc58057, findElement {using=xpath, value=//iframe[@id="PegaGadget1Ifr"]}]
+Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, browserVersion: 127.0.2651.98, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58263}, msedge: {msedgedriverVersion: 127.0.2651.98 (9996f88545e1..., userDataDir: C:\Users\apoor\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58263/devtoo..., se:cdpVersion: 127.0.2651.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: daaf00de32b01c3d509b0dfdbbc58057
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at pageObjects.GeneralEnquiry_Page.enterAllDetails_GE(GeneralEnquiry_Page.java:204)
+	at stepDefinitions.GeneralEnquiry_StepDefinition.enter_all_the_detail(GeneralEnquiry_StepDefinition.java:128)
+	at ✽.Enter all the detail(file:///D:/Selenium%20Project/BDDFramework/./src/test/resources/features/GeneralEnquiry.feature:31)
+</textarea>
+      
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.confirmation_text_will_display()">
-                <span>Then Confirmation text will display</span>
+              <div class="step skip-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.click_on_finish()">
+                <span>And Click on Finish</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.GeneralEnquiry_StepDefinition.case_will_resolve_and_display_confirmation_message()">
+                <span>Then Case will resolve and display confirmation message</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>utils.Hooks.screenCapture(io.cucumber.java.Scenario)</span>
+      <div>General_Enquiry_Resolution
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../embedded1.png' src="../embedded1.png">
+    
+    </div></div>
+</div>
       <div>
       </div>
               </div>
@@ -369,15 +421,15 @@ eventsCount: 5,
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">@Sanity</p>
+<p class="name">@Smoke</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@Sanity</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
+<h4>@Smoke</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -388,13 +440,65 @@ eventsCount: 5,
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:33:27 am</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:07:07 am</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>General Enquiry case initiation</a>
+<a href="#" class="linked" test-id='1' id='2'>General Enquiry Resolution</a>
 <div class="">
-<span class="badge badge-default">Initiating General Enquiry case.General Enquiry case initiation</span>
+<span class="badge badge-default">Initiating General Enquiry case.General Enquiry Resolution</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:07:41 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='13'>And Enter all the detail</a>
+<div class="">
+<span class="badge badge-default">Initiating General Enquiry case.General Enquiry Resolution.And Enter all the detail</span>
 </div>
 </td>
 </tr>

@@ -16,6 +16,23 @@ Feature: Initiating General Enquiry case
     And   Enter all the details
     Then  Confirmation text will display
 
+  @Smoke
+  Scenario: General Enquiry Resolution
+
+  Given Internal CSR reaches to login page of NSW
+  When  CSR enter "apoorv.jain+730@coforge.com" as email id
+  When  Enter password as "Rules@123"
+  And   Click on Submit
+  Then  CSR able to navigation to the home page of Interaction portal
+  When  CSR clicks on My workbaskets
+  And   Select Customer Experience dropdown
+  Then  CSR able to see SR case
+  When  CSR clicks on SR case
+  And   Enter all the detail
+  And   Click on Finish
+  Then  Case will resolve and display confirmation message
+
+
 
 #   Scenario Outline: Login with different sets of data
 #

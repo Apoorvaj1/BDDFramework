@@ -1,30 +1,48 @@
 
 
-java:S1192_"GDefine a constant instead of duplicating this literal "option" 4 times.(µ“Ïúÿÿÿÿ8²²ş“2J$c1564c47-4b10-4f0f-85c0-1d85feccdfe6
-’	java:S117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßŞ»@8³²ş“2J$19df3f76-16fc-4d4c-8258-b74c47abdb2d
-™	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê®ÊÜÿÿÿÿÿ8³²ş“2J$83505440-3009-48fc-b78e-a4c444329b94
-™	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Á®èüÿÿÿÿ8³²ş“2J$a69c698a-e785-46d9-a3b8-0bbfb488d4b0
+java:S1192n"GDefine a constant instead of duplicating this literal "option" 4 times.(µ“Ïúÿÿÿÿ8²Œ÷•2J$b4f0ab92-5e09-4af5-8db6-b7ab432e0966
+“	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßŞ»@8³Œ÷•2J$223571f5-e1cf-4906-9cb9-ed7cbcb4d9ce
+™	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê®ÊÜÿÿÿÿÿ8µŒ÷•2J$4b6486c1-ba54-4b99-afa5-4d811a73e2b7
+™	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Á®èüÿÿÿÿ8µŒ÷•2J$9fa4959a-328f-4d57-a8ca-2b2066af1119
+™	java:S117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Æöıÿÿÿÿ8µŒ÷•2J$23a3e920-3691-496b-8872-e882f5c67724
 ‘
-java:S1104"NMake ID a static final constant or non-public and provide accessors if needed.(òÂÚä8³²ş“2J$d4d8850e-0513-44f8-b938-d2c1158fc14e
-	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ëô¦ÿ8³²ş“2J$4cd3768f-2c88-4060-aef0-95bb7cb5d107
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÉÙ÷T8´²ş“2J$5373da20-cb5a-4aa1-aec3-42e3cf448e57
-	java:S116"MRename this field "ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òÂÚä8½²ş“2J$a3f7598c-4b46-4632-bce2-fbcc971d6dfc
-”	java:S116"SRename this field "LoginBtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª¹ãZ8½²ş“2J$47aef79c-b89a-470c-bd78-4b5722af4e05
-¨	java:S116"aRename this field "option_Submit_a_SRandE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËåÎÑúÿÿÿÿ8½²ş“2J$0401aa91-86c9-47d7-9c68-d6a5a8070642
-¢	java:S116""`Rename this field "GeneralEnquiry_Button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›À¤æ8½²ş“2J$04aa30b9-71a2-4985-b543-d89b4ff2df88
-£	java:S116$"\Rename this field "GeneralEnquiry_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÛ¥Şûÿÿÿÿ8½²ş“2J$f96dbaf5-0cf5-414d-b643-6cf6458f7340
- 	java:S116'"YRename this field "No_radiobutton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä«›üüÿÿÿÿ8½²ş“2J$a46bc4e0-4f82-40dd-a4f3-529b0ff5d9b9
-¡	java:S116*"ZRename this field "Yes_radiobutton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ÷¶ğıÿÿÿÿ8½²ş“2J$ba31d3a9-0f12-4b1e-ae3a-c88b037d4fc9
-	java:S116-"VRename this field "Next_button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ª£Üøÿÿÿÿ8½²ş“2J$b2004ddf-819f-4230-9ea9-6d44caa5df34
-¤	java:S1160"bRename this field "EnquiryDetail_TextField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¾¨Ù8½²ş“2J$7488dffb-d4a3-4332-aabd-e2dc7b41b5bc
-Ÿ	java:S1163"XRename this field "Submit_Button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§”ó§úÿÿÿÿ8½²ş“2J$3c7925f3-2a21-4735-a5fe-6978c98a73c1
-•	java:S100I"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸›¸õşÿÿÿÿ8Â²ş“2J$711b4921-a185-4078-9712-c52f217b21e0
-•	java:S100R"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­»èøÿÿÿÿ8Ä²ş“2J$db85608f-3c59-46df-bc9a-19c4a96d9a14
-	java:S100W"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•î”»8Å²ş“2J$325dd4e4-051d-47fe-92ba-617334dea102
-m	java:S106Z"+Replace this use of System.out by a logger.(Ëòá²8Å²ş“2J$866edcae-5edc-4cf9-854c-2ed8175b1fc0
-•	java:S100]"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â÷ª´şÿÿÿÿ8Æ²ş“2J$20b2c023-4de7-4bc4-a250-0f368e5630af
-•	java:S100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾‹‡ˆşÿÿÿÿ8Æ²ş“2J$802127ae-c6f0-459e-9ea8-1f4eaf2b9cef
-–	java:S100Œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¬îèÿÿÿÿÿ8È²ş“2J$03b4f442-fd88-4342-b4e5-6fea5d1dac09
-n	java:S106"+Replace this use of System.out by a logger.(ÊÚÊø8È²ş“2J$e4abba23-99e0-4812-8be4-d277ba1edbed
-s	java:S106’"+Replace this use of System.out by a logger.(õÓ„­üÿÿÿÿ8È²ş“2J$3e2087f7-2707-4bb3-8d9c-49fcee91e0a7
-s	java:S106•"+Replace this use of System.out by a logger.(âÇŠªüÿÿÿÿ8È²ş“2J$117e4adf-f13f-4a7c-9e2f-e0d03b84294f
+java:S1104"NMake ID a static final constant or non-public and provide accessors if needed.(¿æ˜©8µŒ÷•2J$bc9c955b-ca2b-478f-b5d0-88773a4442a5
+k
+java:S1444"(Make this "public static ID" field final(¿æ˜©8¶Œ÷•2J$164b18a3-6e88-4f25-9aad-41d9a7d730fb
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ëô¦ÿ8·Œ÷•2J$a18dda45-458b-4fdb-8716-9125c3fb95f4
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÉÙ÷T8¸Œ÷•2J$74e45bdc-469e-4de2-bd34-f5c83463d96d
+”	java:S116"SRename this field "LoginBtn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª¹ãZ8ËŒ÷•2J$cd0d73ea-7f12-4330-84c7-a661cf9a9118
+¨	java:S116""aRename this field "option_Submit_a_SRandE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËåÎÑúÿÿÿÿ8ËŒ÷•2J$1c4bf263-9d05-4a20-893f-8a31230963dc
+¢	java:S116%"`Rename this field "GeneralEnquiry_Button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›À¤æ8ËŒ÷•2J$28530e93-9f0c-40ef-8020-c14934f51caa
+£	java:S116'"\Rename this field "GeneralEnquiry_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÛ¥Şûÿÿÿÿ8ËŒ÷•2J$4568f0e5-9e33-4c65-b20f-bfe5e2fdb972
+ 	java:S116*"YRename this field "No_radiobutton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä«›üüÿÿÿÿ8ËŒ÷•2J$41361fcc-0858-4cc1-890a-643ea2f83b60
+¡	java:S116-"ZRename this field "Yes_radiobutton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ÷¶ğıÿÿÿÿ8ËŒ÷•2J$41aa2971-e9c4-4317-bc62-bd31a044af2d
+	java:S1160"VRename this field "Next_button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ª£Üøÿÿÿÿ8ËŒ÷•2J$10e6c74a-5e68-4a15-8684-9663dd33302e
+¤	java:S1163"bRename this field "EnquiryDetail_TextField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¾¨Ù8ËŒ÷•2J$99992953-be9e-4397-8a54-0bde10c6f71b
+Ÿ	java:S1166"XRename this field "Submit_Button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§”ó§úÿÿÿÿ8ËŒ÷•2J$26106271-29d0-49d2-a5e0-7a55ec0c0f4a
+¡	java:S1169"_Rename this field "button_Myworkbaskets" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”Äè8ËŒ÷•2J$0808c212-daf1-4ed5-8cc7-2efa7ed10e2f
+›	java:S116<"YRename this field "collapse_Title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ˆìô8ËŒ÷•2J$3664ab64-94d2-45d6-ba40-ba808ff407fd
+¦	java:S116?"dRename this field "button_FullfillTheRequest" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ø×8ËŒ÷•2J$21acc4ea-5496-4352-b8dc-0eaffacfef57
+ 	java:S116B"YRename this field "Proceed_button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÓåŠøÿÿÿÿ8ËŒ÷•2J$7fd37215-912b-40c9-a5bf-d3229d328b31
+
+java:S3008"MRename this field "ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿æ˜©8ÌŒ÷•2J$f6457515-3a18-4a52-ae3c-37e4263d932e
+•	java:S100X"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸›¸õşÿÿÿÿ8ÓŒ÷•2J$3eef5a35-b3fd-4fc4-a102-afc79dde6ccf
+•	java:S100a"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­»èøÿÿÿÿ8ÖŒ÷•2J$7a1342ae-5ba7-4a55-b5fb-ee4a65acce0e
+	java:S100f"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•î”»8×Œ÷•2J$922fb8d3-8c00-49c4-885d-28e5df676fe7
+y
+java:S2696h"6Make the enclosing method "static" or remove this set.(Š°Äê8ØŒ÷•2J$7c677d52-5225-42dd-ade4-5091354a1246
+m	java:S106i"+Replace this use of System.out by a logger.(Ëòá²8ÙŒ÷•2J$92466473-2976-42ac-9114-a0fd19f45829
+•	java:S100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â÷ª´şÿÿÿÿ8ÙŒ÷•2J$fd58640e-25db-465f-baeb-e7139f6232ce
+•	java:S100{"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾‹‡ˆşÿÿÿÿ8ÜŒ÷•2J$729f1aea-756e-441d-b4ef-7a8a86c537e2
+–	java:S100›"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¬îèÿÿÿÿÿ8àŒ÷•2J$1d6e5e7e-6cb5-44b1-ba2d-1c825ec63937
+n	java:S106Ÿ"+Replace this use of System.out by a logger.(ÊÚÊø8áŒ÷•2J$17a27cb8-772e-4115-be35-43f1eb8c1d05
+s	java:S106¡"+Replace this use of System.out by a logger.(õÓ„­üÿÿÿÿ8áŒ÷•2J$a8742113-5297-44f0-874a-8c4c5ea8120d
+s	java:S106¤"+Replace this use of System.out by a logger.(âÇŠªüÿÿÿÿ8áŒ÷•2J$63d3dfb7-3f08-4e34-a138-a4296e6f80bf
+‘	java:S100¨"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­û–8áŒ÷•2J$486f6a64-e4dd-423c-927a-78b2400d4d5f
+–	java:S100®"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ã²¸ûÿÿÿÿ8âŒ÷•2J$2fb125ba-d17f-46b9-8b16-78a39993920f
+s	java:S106³"+Replace this use of System.out by a logger.(Ï¸Á»úÿÿÿÿ8äŒ÷•2J$36c2ff7c-f152-46ac-966d-4aec3eec12f6
+–	java:S100»"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÉæÊøÿÿÿÿ8åŒ÷•2J$45e29dbf-45c0-41ac-991e-9df9943e0869
+„	java:S125½"<This block of commented-out lines of code should be removed.(¼Â†úÿÿÿÿ8éŒ÷•2J$296c7af4-5f6b-4b52-8f90-1e12c1a7187d
+n	java:S106Â"+Replace this use of System.out by a logger.(èíáÓ8éŒ÷•2J$6fcaf8bc-b02e-4e20-a848-a50dc858acb4
+n	java:S106Ã"+Replace this use of System.out by a logger.(‡Ä·Í8êŒ÷•2J$7724db09-3d41-4858-bff5-bba2f8c2da86
+–	java:S100Ë"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı±Ë§ùÿÿÿÿ8êŒ÷•2J$5190c651-9204-477f-8dbf-52faf18dff20

@@ -1,19 +1,19 @@
 
-“	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø­îÎ8×·Ù“2J$c6d27dcc-c9f7-44c4-abcd-58bfd170870f
-”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(±ĞÊ©ùÿÿÿÿ8Ø·Ù“2J$771c0adf-6866-491a-bf60-9f212c275319
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÉÙ÷T8Ú·Ù“2J$3a389675-5280-488a-9ef9-1a80f3a007a6
- 	java:S116"^Rename this field "option_MyProperties" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¸™ƒ8ã·Ù“2J$d1b85d65-73a6-48a3-8592-9986dbf4dc98
-œ	java:S116"ZRename this field "submit_GEButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÌí®8ã·Ù“2J$fe4ea8be-066e-43af-a1d6-609c8787a7bf
-©	java:S116"bRename this field "display_OwnedProperties" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶•Ó€úÿÿÿÿ8ã·Ù“2J$68ae9e8d-5771-47f0-abfd-ec7348ddecda
-¦	java:S116"dRename this field "display_ManagedProperties" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èõ…¼8ã·Ù“2J$19842fa6-bc00-47bf-a717-3db505232c5a
-¤	java:S116"]Rename this field "addProperty_button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¬üÿÿÿÿ8ã·Ù“2J$8839c2fd-09b0-4b9b-9d99-e05ff952ad1b
-	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÙ 8è·Ù“2J$578710a8-a3e8-4c79-8ba4-537fed2b5d1a
-	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó­¸À8ê·Ù“2J$0d9e7ab8-4d5c-4ad6-8a0c-1ef14e6782e1
-m	java:S1060"+Replace this use of System.out by a logger.(æÚ¹»8î·Ù“2J$057a547d-f1be-4b4f-878a-3c59e7d9ff20
-r	java:S1063"+Replace this use of System.out by a logger.(çâèûÿÿÿÿ8î·Ù“2J$69ec01c5-b4b8-462e-a22b-0290d5d68dd3
-•	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä›ƒúÿÿÿÿ8ï·Ù“2J$77720487-d378-4655-a081-a1b6fa03998d
+“	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø­îÎ8×·Ù“2J$83df748c-75f2-4382-8793-44dc8ea8e997
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(±ĞÊ©ùÿÿÿÿ8Ø·Ù“2J$258a1ce8-e69a-4508-9b71-37cb4cc495e8
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÉÙ÷T8Ú·Ù“2J$7826ab10-23f2-4a48-a190-f7d4445c9125
+ 	java:S116"^Rename this field "option_MyProperties" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¸™ƒ8ã·Ù“2J$38044c2d-8916-45b9-8936-1cee2462461d
+œ	java:S116"ZRename this field "submit_GEButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÌí®8ã·Ù“2J$7fb7f889-d962-491b-b617-e34e220dd7c9
+©	java:S116"bRename this field "display_OwnedProperties" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶•Ó€úÿÿÿÿ8ã·Ù“2J$3531b20f-215b-4db5-a21e-e3b9c4ccca1a
+¦	java:S116"dRename this field "display_ManagedProperties" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èõ…¼8ã·Ù“2J$cab16f9b-40a5-4b28-a4d2-5c94cc0d61a2
+¤	java:S116"]Rename this field "addProperty_button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¬üÿÿÿÿ8ã·Ù“2J$aeb1f751-32a0-46d3-986a-9e76662cdeb3
+	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÙ 8è·Ù“2J$3faafb6e-c896-45b3-b42a-ad6662e9e901
+	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó­¸À8ê·Ù“2J$1e8dcf26-a152-4329-a7ee-c56434361ea3
+m	java:S1060"+Replace this use of System.out by a logger.(æÚ¹»8î·Ù“2J$26adc8db-9694-4fdb-975f-91dc5b400902
+r	java:S1063"+Replace this use of System.out by a logger.(çâèûÿÿÿÿ8î·Ù“2J$22ef98e9-a46a-4930-8df8-ec476ce23865
+•	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä›ƒúÿÿÿÿ8ï·Ù“2J$f84cc639-ed5f-482c-a848-993de4e61798
 r
-java:S1128	"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ8ğ·Ù“2J$a824304c-af38-458a-92f8-91bc70f40d7d
+java:S1128	"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ8ğ·Ù“2J$3ae8a481-7fdb-4845-9ad2-b56e3bcc0ef1
 r
 java:S1128
-"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8ğ·Ù“2J$70c8d91c-d4dd-4ba7-a9f9-3576d3228d8a
+"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8ğ·Ù“2J$1100c7a1-46b1-4a98-a7d2-32d1fc05bb9c

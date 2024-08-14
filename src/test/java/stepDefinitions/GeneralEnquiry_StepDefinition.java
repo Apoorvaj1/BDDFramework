@@ -81,5 +81,61 @@ public class GeneralEnquiry_StepDefinition {
         gep.get_GEConfirmationText();
     }
 
+    @Given("Internal CSR reaches to login page of NSW")
+    public void internal_csr_reaches_to_login_page_of_nsw() {
+        BrowserFactory.init(ConfigReader.readKey("browser").toLowerCase());
+        getDriver().navigate().to(ConfigReader.readKey("NSW_URL"));
+        String title = getDriver().getTitle();
+        System.out.println("Title is "+title);
+        Assert.assertEquals("NSW Valnet Portal",title);
+    }
+    @When("CSR enter {string} as email id")
+    public void csr_enter_as_email_id(String string) {
+        GeneralEnquiry_Page gep = new GeneralEnquiry_Page(getDriver());
+        gep.enterEmail(string);
+    }
+    @Then("CSR able to navigation to the home page of Interaction portal")
+    public void csr_able_to_navigation_to_the_home_page_of_interaction_portal() throws InterruptedException {
+        Thread.sleep(2000);
+        String title_IP = getDriver().getTitle();
+        System.out.println("Interaction portal home page title is "+title_IP);
+        Assert.assertEquals("Home",title_IP);
+    }
+    @When("CSR clicks on My workbaskets")
+    public void csr_clicks_on_my_workbaskets() {
+        GeneralEnquiry_Page gep = new GeneralEnquiry_Page(getDriver());
+        gep.click_MyWorkbaskets();
+
+    }
+    @When("Select Customer Experience dropdown")
+    public void select_customer_experience_dropdown() throws InterruptedException {
+        GeneralEnquiry_Page gep = new GeneralEnquiry_Page(getDriver());
+        gep.which_Workbasket();
+    }
+    @Then("CSR able to see SR case")
+    public void csr_able_to_see_sr_case() throws InterruptedException {
+        GeneralEnquiry_Page gep = new GeneralEnquiry_Page(getDriver());
+        gep.verify_CaseIdAvailable();
+    }
+    @When("CSR clicks on SR case")
+    public void csr_clicks_on_sr_case() throws InterruptedException {
+        System.out.println("Yes CSR able to click on the case");
+        Thread.sleep(2000);
+    }
+    @When("Enter all the detail")
+    public void enter_all_the_detail() throws InterruptedException {
+        GeneralEnquiry_Page gep = new GeneralEnquiry_Page(getDriver());
+        gep.enterAllDetails_GE();
+    }
+    @When("Click on Finish")
+    public void click_on_finish() {
+        System.out.println("Hello");
+    }
+    @Then("Case will resolve and display confirmation message")
+    public void case_will_resolve_and_display_confirmation_message() {
+        System.out.println("Hello");
+    }
+
+
 
 }

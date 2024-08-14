@@ -1,5 +1,7 @@
 
+“
+java:S1192$"PDefine a constant instead of duplicating this literal "excludeSwitches" 4 times.(­ÎÕ¼8’Õ‡‡”2J$0b4439bd-5ff9-4f14-a769-bafda28be592
 }
-java:S1118":Add a private constructor to hide the implicit public one.(úÓ˜â8¨ö²Í2J$0fe9ee39-db35-44a8-8fe6-410fe4689db3
+java:S1118":Add a private constructor to hide the implicit public one.(úÓ˜â8 Õ‡‡”2J$1a9631b8-1922-4ad2-9dd4-93750cdc89e9
 ‡
-java:S2886"DSynchronize this method to match the synchronization on "getDriver".(·Ä¶ø8¬ö²Í2J$22f6d4aa-a702-475c-a2a1-3aef7d1757a3
+java:S2886"DSynchronize this method to match the synchronization on "getDriver".(·Ä¶ø8¢Õ‡‡”2J$3b2dbb07-679c-4f10-b57a-981294699308

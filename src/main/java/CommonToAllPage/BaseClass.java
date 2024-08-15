@@ -22,6 +22,9 @@ public class BaseClass {
     public void clickOnButton(WebElement e){
         e.click();
     }
+    public void clickOnTextField(WebElement e){
+        e.click();
+    }
 
     public void enterText(WebElement e,String str){
         e.sendKeys(str);

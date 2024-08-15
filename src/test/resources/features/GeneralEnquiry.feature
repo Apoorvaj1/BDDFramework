@@ -5,7 +5,7 @@ Feature: Initiating General Enquiry case
   Scenario: General Enquiry case initiation
 
     Given User reaches to login page of NSW
-    When  User enter "apoorv.jain+3500@coforge.com" as email id
+    When  User enter "apoorv.jain+782@coforge.com" as email id
     When   Enter password as "Rules@123"
     And    Click on Submit
     Then  User able to navigation to the home page

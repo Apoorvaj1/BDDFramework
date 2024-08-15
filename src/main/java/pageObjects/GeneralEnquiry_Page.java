@@ -1,10 +1,7 @@
 package pageObjects;
 
 import CommonToAllPage.BaseClass;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
@@ -59,11 +56,17 @@ public class GeneralEnquiry_Page extends BaseClass {
     @FindBy(xpath = "(//div[@class=\"header-left\"])[1]")
     WebElement collapse_Title;
 
+    @FindBy(xpath="(//div[@class=\"header-left\"])[4]")
+    WebElement collapse_RelatedCases;
+
     @FindBy(xpath = "//label[normalize-space()=\"Fulfill the request\"]")
     WebElement button_FullfillTheRequest;
 
     @FindBy(xpath = "//button[contains(text(),\"Proceed\")]")
     WebElement Proceed_button;
+
+    @FindBy(xpath = "//input[@role=\"combobox\"][@placeholder=\"Please select a resolution reason\"]")
+    WebElement multiselect_ResolutionReason;
 
     public void enterEmail(String email1){
         enterText(email,email1);
@@ -153,7 +156,7 @@ public class GeneralEnquiry_Page extends BaseClass {
     }
 
     public void get_GEConfirmationText() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(4000);
         WebElement GE_CT = driver.findElement(By.cssSelector("div.content-item.content-label.item-1.remove-bottom-spacing.remove-top-spacing.remove-left-spacing.flex.flex-row.dataLabelRead"));
         String confirmation_Message = GE_CT.getText();
         System.out.println(confirmation_Message);
@@ -186,7 +189,6 @@ public class GeneralEnquiry_Page extends BaseClass {
 
     public void verify_CaseIdAvailable() throws InterruptedException {
         String name = ID;
-        //String name = '\"'+ID+'\"';
         Thread.sleep(2000);
         List<WebElement> case_ID = driver.findElements(By.xpath("//a[contains(text(),\"GENQ-\")]"));
         for(WebElement case_ID1:case_ID){
@@ -208,6 +210,26 @@ public class GeneralEnquiry_Page extends BaseClass {
         js.executeScript("window.scrollBy(0,1000)");
         clickOnButton(button_FullfillTheRequest);
         clickOnButton(Proceed_button);
+        Thread.sleep(3000);
+        clickOnButton(collapse_RelatedCases);
+        clickOnTextField(multiselect_ResolutionReason);
+        Actions action = new Actions(driver);
+        action.sendKeys(Keys.ARROW_DOWN).build().perform();
+        Thread.sleep(2000);
+        List<WebElement> resolutionReason_Options = driver.findElements(By.xpath("//ul[@role=\"listbox\"]/li/span"));
+        for(WebElement options:resolutionReason_Options){
+            String option = options.getText();
+            Thread.sleep(2000);
+            if(option.equals("Matter finalised") || options.equals("Matter finalised - customer no longer required assistance")){
+                options.click();
+            }
+        }
+        action.sendKeys(Keys.ESCAPE).build().perform();
+        Thread.sleep(2000);
+        WebElement finish_Button = driver.findElement(By.xpath("//button[normalize-space()=\"Finish\"]"));
+        js.executeScript("arguments[0].scrollIntoView(true);",finish_Button);
+        finish_Button.click();
+
     }
 
 }

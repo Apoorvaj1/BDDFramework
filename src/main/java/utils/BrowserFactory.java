@@ -36,6 +36,7 @@ public class BrowserFactory {
                 edgeOptions.setExperimentalOption("excludeSwitches",new String[]{"enable-automation"});
                 edgeOptions.setExperimentalOption("excludeSwitches", Arrays.asList("disable-popup-blocking"));
                 WebDriver driver = new EdgeDriver(edgeOptions);
+                driver.manage().deleteAllCookies();
                 setDriver(driver);
             }
             else if((browserName.equals("chrome"))) {
@@ -47,6 +48,7 @@ public class BrowserFactory {
                 chromeOptions.setExperimentalOption("excludeSwitches",new String[]{"enable-automation"});
                 chromeOptions.setExperimentalOption("excludeSwitches", Arrays.asList("disable-popup-blocking"));
                 WebDriver driver = new ChromeDriver(chromeOptions);
+                driver.manage().deleteAllCookies();
                 setDriver(driver);
             }
         }

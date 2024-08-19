@@ -156,7 +156,7 @@ public class GeneralEnquiry_Page extends BaseClass {
     }
 
     public void get_GEConfirmationText() throws InterruptedException {
-        Thread.sleep(4000);
+        Thread.sleep(7000);
         WebElement GE_CT = driver.findElement(By.cssSelector("div.content-item.content-label.item-1.remove-bottom-spacing.remove-top-spacing.remove-left-spacing.flex.flex-row.dataLabelRead"));
         String confirmation_Message = GE_CT.getText();
         System.out.println(confirmation_Message);
@@ -189,7 +189,7 @@ public class GeneralEnquiry_Page extends BaseClass {
 
     public void verify_CaseIdAvailable() throws InterruptedException {
         String name = ID;
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         List<WebElement> case_ID = driver.findElements(By.xpath("//a[contains(text(),\"GENQ-\")]"));
         for(WebElement case_ID1:case_ID){
             if(case_ID1.getText().equals(name)){
@@ -220,7 +220,7 @@ public class GeneralEnquiry_Page extends BaseClass {
         for(WebElement options:resolutionReason_Options){
             String option = options.getText();
             Thread.sleep(2000);
-            if(option.equals("Matter finalised") || options.equals("Matter finalised - customer no longer required assistance")){
+            if(option.equals("Matter finalised") || option.equals("Matter finalised - customer no longer required assistance")){
                 options.click();
             }
         }
@@ -229,7 +229,9 @@ public class GeneralEnquiry_Page extends BaseClass {
         WebElement finish_Button = driver.findElement(By.xpath("//button[normalize-space()=\"Finish\"]"));
         js.executeScript("arguments[0].scrollIntoView(true);",finish_Button);
         finish_Button.click();
-
+        Thread.sleep(5000);
+        driver.findElement(By.xpath("//button[normalize-space()=\"Yes\"]")).click();
+        Thread.sleep(4000);
     }
 
 }

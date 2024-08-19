@@ -25,7 +25,7 @@ public class Demo7 {
         driver.findElement(By.id("sub")).click();
         Thread.sleep(2000);
         driver.switchTo().frame("PegaGadget0Ifr");
-        driver.findElement(By.xpath("//a[normalize-space()='GENQ-30012']")).click();
+        driver.findElement(By.xpath("//a[normalize-space()='GENQ-31004']")).click();
         driver.switchTo().defaultContent();
         Thread.sleep(2000);
         driver.switchTo().frame("PegaGadget1Ifr");
@@ -39,6 +39,7 @@ public class Demo7 {
             String option123 = options.getText();
             Thread.sleep(2000);
             if(option123.equals("Matter finalised") || option123.equals("Matter finalised - customer no longer required assistance")){
+                //action.doubleClick(options).build().perform();
                 options.click();
             }
         }
@@ -50,6 +51,8 @@ public class Demo7 {
 //        js.executeScript("window.scrollBy(0,1200)");
         js.executeScript("arguments[0].scrollIntoView(true);",finish_Button);
         finish_Button.click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//button[normalize-space()=\"Yes\"]")).click();
     }
 
 }

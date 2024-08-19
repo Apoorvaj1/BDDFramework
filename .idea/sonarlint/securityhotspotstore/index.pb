@@ -40,3 +40,7 @@ Q
 !src/test/java/Practice/Demo2.java,4\8\48b25c8a5e859006a619766833188b17683f016f
 Q
 !src/test/java/Practice/Demo7.java,9\9\9964091ac0d4e3cf362668ae7fac10fd6f3a1c7f
+Q
+!src/test/java/Practice/Demo8.java,d\6\d6cc1c1bc4af7cc7e2dbe3735254d24674e20673
+Q
+!src/test/java/Practice/Demo9.java,3\a\3a2fed0f26839fd859167c29c6b54756b60a8871
